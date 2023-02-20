@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+html, body, div, h1, h2, p, a, header, main, footer,
+aside, nav, form, label, input, 
+button, img, ul, li, em {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+body {
+ 
+    background-color: #121214;
+
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 230px;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 600px;
+
+}
+
+.containerLogo {
+    margin-bottom: 40px;
+
+}
+
+#logoKenzie {
+    width: 295px;
+
+}
+
+#tituloKenzieFlix, #GerenciarPerfil {
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.containerTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerUsuarios {
+    max-width: 700px;
+    height: 440px;
+
+}
+
+.listaUsuarios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+}
+
+.imgPerfil {
+    width: 160px;
+    border-radius: 8px;
+
+}
+
+#tituloKenzieFlix {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.listaUsuarios > li {
+    flex-flow: 1;
+
+}
+
+.listaUsuarios > li > a {
+    color: #8f8f8f;
+    font-weight:bold;
+
+}
+
+.containerGerenciarPerfis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gerenciarPerfil {
+    width: 255px;
+    height: 62px;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 15px 15px 15px 52px;
+    margin-right: 10px;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
